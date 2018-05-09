@@ -1,0 +1,153 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("../../public/images/earth.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+img {
+	width: 30px;
+}
+
+#container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	z-index: -1;
+	min-height: 100vh;
+	background-color: rgba(0,0,0,.3);
+}
+
+#content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	z-index: 1;
+	min-height: 100%;
+}
+
+#search {
+	width: 300px;
+	border-radius: 9px;
+	border: none;
+	font-size: 1.2em;
+	outline: none;
+	padding: 7px 10px;
+	border: 1px solid red;
+	background-color: #f2f2f2;
+}
+
+#search-btn {
+	padding: 10px 20px;
+	vertical-align: top;
+	border-radius: 9px;
+	border: none;
+	color: white;
+	background-color: green;
+	border: 1px solid green;
+	outline: none;
+	font-family: raleway;
+}
+
+#random {
+
+}
+
+#results {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	width: 60%;
+	min-width: 260px;
+}
+
+#logo {
+	font-size: 100px;
+	color: white;
+	font-family: raleway;
+	color: white;
+	margin: 20px 0px;
+}
+
+.result {
+	background-color: white;
+	margin: 6px 0px;
+	padding: 20px;
+	border-radius: 9px;
+	background-color: rgba(0,0,0, .7);
+	font-family: ubuntu;
+	
+}
+
+.result p {
+	color: white;
+}
+
+.result h1 {
+	color: #ff3333;
+}
+
+@media screen and (max-width: 520px){
+
+	#logo {
+		font-size: 60px;
+	}
+
+	form {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		width: 95%;
+		text-align: center;
+	}
+
+	#search {
+		margin-bottom: 10px;
+		width: 238px;
+	}
+
+	#search-btn {
+		width: 260px;
+	}
+
+	
+}
