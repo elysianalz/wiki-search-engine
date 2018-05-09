@@ -13,7 +13,7 @@ function search(){
 	var query = $("#search").val();
 
 	$.ajax({
-	    url: 'http://allorigins.me/get?url=https%3A//en.wikipedia.org/w/api.php%3Faction%3Dopensearch%26search%3D'+query+'%26limit%3D10%26format%3Djson&callback=?',
+	    url: 'https://allorigins.me/get?url=https%3A//en.wikipedia.org/w/api.php%3Faction%3Dopensearch%26search%3D'+query+'%26limit%3D10%26format%3Djson&callback=?',
 	    dataType: 'json',
 	    type: 'POST',
 	   	headers: { 'Api-User-Agent': 'wikiviewer/1.0' },
